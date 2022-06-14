@@ -168,6 +168,32 @@ footer p {
     text-decoration: none;
   }
 
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid #ff385c;
+    padding: 10px;
+  }
+
+  form div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  form select,
+  form input {
+    margin-bottom: 0px;
+  }
+
   .group {
     display: flex;
     flex-direction: row;
@@ -185,15 +211,5 @@ footer p {
 
   .item-double {
     flex: 2;
-  }
-
-  form label {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-
-  form select,
-  form input {
-    margin-bottom: 0px;
   }
 }
