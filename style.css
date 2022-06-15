@@ -61,7 +61,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 50px;
   color: #fff;
   text-align: center;
 }
@@ -112,7 +112,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 60%;
 }
 
 form div {
@@ -153,6 +153,12 @@ footer p {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+    flex-wrap: wrap;
+  }
+
+  header nav {
+    padding-bottom: 10px;
+    
   }
 
   header nav ul li {
@@ -161,6 +167,9 @@ footer p {
 
   header nav ul li a {
     padding: 0 20px 0 0;
+  }
+  header nav ul li:last-child a {
+    padding-right: 0;
   }
 
   header nav ul li a:hover {
